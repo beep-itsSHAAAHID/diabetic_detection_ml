@@ -25,8 +25,13 @@ dependencies:
   cupertino_icons: ^1.0.6
   #tflite: ^1.1.2
   image_picker: ^1.0.7
-#  tflite_flutter: ^0.10.4
-  tflite_v2: ^1.0.0
+
+#  tflite_v2: ^1.0.0
+  tflite_flutter_processing: ^0.4.1
+  tflite_flutter: ^0.10.4
+  image: ^4.1.7
+  http: ^1.2.1
+
 
 
 dev_dependencies:
@@ -45,15 +50,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-assets:
-  - assets/tflite/labels.txt
-  - assets/tflite/model.tflite
+  assets:
+    - assets/labels.txt
+    - assets/model.tflite
+    - assets/model2.tflite
 
 
 
